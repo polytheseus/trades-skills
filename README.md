@@ -19,7 +19,7 @@ the assistant runs before it answers. It never makes up prices. You set them.
 | `payment-chaser` | An invoice is overdue. Get the right next message (friendly, firm, final notice, letter before action) with dates, UK statutory interest worked out for business customers, and a payment-plan option. |
 | `review-reply` | Someone left a review, especially a bad or unfair one. Get a calm public reply that wins the next customer, a private follow-up, and whether to report it. Plus a message asking happy customers for reviews. |
 
-**Website and setup guide:** https://polytheseus.github.io/trades-skills/
+**Website and setup guide:** https://polytheseus.com/trades-skills/
 
 ## Use it in ChatGPT, Gemini or Claude (no coding)
 
@@ -67,7 +67,7 @@ Five more skills for the rest of the office work:
 It includes all 8 skills as a ready-made ChatGPT / Gemini / Claude setup, a
 copy-paste prompt pack (16 prompts) for any chat app, and the coding-agent versions.
 
-**[Get Trades Skills Pro: £19 / $24 / €22](https://polytheseus.github.io/trades-skills/#pro)**. You pay once and get updates for life.
+**[Get Trades Skills Pro: £19 / $24 / €22](https://polytheseus.com/trades-skills/#pro)**. You pay once and get updates for life.
 Checkout and VAT/sales tax are handled by [Polar](https://polar.sh) (merchant of record).
 
 ## Good to know

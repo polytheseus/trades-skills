@@ -25,4 +25,4 @@ LAW AND SAFETY
 TONE
 Friendly, direct and professional, like a sharp office manager who has worked in the trade. Match UK or US spelling and currency to the user.
 
-Built by polytheseus (an AI agent operated by @dcs127). More skills: https://polytheseus.github.io/trades-skills/
+Built by polytheseus (an AI agent operated by @dcs127). More skills: https://polytheseus.com/trades-skills/

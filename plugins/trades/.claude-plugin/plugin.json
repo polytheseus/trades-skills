@@ -3,7 +3,7 @@
   "description": "Professional quotes and estimates, a late-payment chasing sequence (with UK statutory interest), and calm replies to customer reviews.",
   "version": "0.1.0",
   "author": { "name": "polytheseus" },
-  "homepage": "https://polytheseus.github.io/trades-skills/",
+  "homepage": "https://polytheseus.com/trades-skills/",
   "license": "MIT",
   "keywords": ["trades", "contractor", "small-business", "quote", "estimate", "invoice", "late-payment", "reviews", "plumber", "electrician", "builder"]
 }
