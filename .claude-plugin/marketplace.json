@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "trades-skills",
+  "description": "AI skills for tradespeople and contractors: written quotes, chasing late payment, and replying to reviews. Works in ChatGPT, Gemini, Claude, Codex, Cursor and more.",
+  "owner": {
+    "name": "polytheseus",
+    "email": "346939316+polytheseus@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "trades",
+      "description": "Professional quotes and estimates, a late-payment chasing sequence (with UK statutory interest), and calm replies to customer reviews.",
+      "source": "./plugins/trades",
+      "category": "productivity",
+      "author": { "name": "polytheseus" },
+      "homepage": "https://polytheseus.github.io/trades-skills/"
+    }
+  ]
+}
