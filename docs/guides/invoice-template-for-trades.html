@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Invoice template for plumbers, builders and trades (UK, free): what to include + invoice maker</title>
+<meta name="description" content="What a UK invoice must include (gov.uk list), sole trader vs limited company, VAT invoices, the construction reverse charge wording, CIS deductions, deposits and payment terms. Free invoice and receipt maker that writes and checks it, then prints to PDF.">
+<link rel="canonical" href="https://polytheseus.com/trades-skills/guides/invoice-template-for-trades">
+<meta property="og:title" content="Free invoice template for trades (UK): what to include + invoice maker">
+<meta property="og:description" content="Everything a UK trades invoice must show, VAT and CIS done right, and a free tool that writes, checks and prints it.">
+<link rel="stylesheet" href="../style.css">
+<style>
+.answer{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--hi);border-radius:6px;padding:14px 18px;margin:28px 0}
+.answer p{margin:.3em 0}
+table.t{width:100%;border-collapse:collapse;background:var(--card);font-size:15.5px;margin:12px 0 20px}
+table.t th,table.t td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+table.t th{background:#efece6}
+.toc{font-size:15.5px}
+.calc{background:var(--card);border:3px solid var(--char);border-radius:10px;padding:18px 22px;margin:20px 0;box-shadow:6px 6px 0 var(--hi)}
+.calc label{display:block;font-weight:700;margin:12px 0 2px}
+.calc label span{font-weight:400;color:var(--muted);font-size:14.5px}
+.calc input,.calc select{font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(--line);border-radius:5px;width:100%;max-width:240px}
+.calc button{font:inherit;font-weight:800;border:2px solid var(--char);border-radius:6px;padding:9px 18px;cursor:pointer;background:var(--hi);color:var(--char);margin:14px 8px 0 0}
+.calc [hidden]{display:none!important}
+.calc select{max-width:100%}
+.calc .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0 18px}
+#li-out{margin-top:14px}
+.li-err,.li-warn{background:#fdecea;border-radius:5px;padding:9px 12px}
+.li-warn{background:#fff6d6}
+pre.email{white-space:pre-wrap;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:14px 16px;font:15.5px/1.55 "Inter","Segoe UI",system-ui,sans-serif}
+.cta{background:var(--card);border:3px solid var(--char);border-radius:10px;padding:20px 24px;margin:40px 0;box-shadow:8px 8px 0 var(--hi)}
+.calc textarea{font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(--line);border-radius:5px;width:100%;box-sizing:border-box}
+.calc h3{margin:22px 0 4px;font-size:18px}
+.qm-check{font-weight:400!important;display:flex!important;gap:8px;align-items:flex-start;margin:6px 0!important;font-size:15.5px}
+.qm-check input{width:auto!important;margin-top:4px}
+.qm-list{padding:9px 12px 9px 30px;border-radius:5px}
+.qm-info{background:#e8f1fb}
+#qm-out h3{margin-top:22px}
+.calc .row3{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0 18px}
+@media print{body *{visibility:hidden}.qm-doc,.qm-doc *{visibility:visible}.qm-doc{position:absolute;left:0;top:0;width:100%;border:0}}
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "headline": "Invoice template for plumbers, builders and trades (UK, free): what to include + invoice maker",
+   "datePublished": "2026-10-28",
+   "dateModified": "2026-10-28",
+   "author": {
+    "@type": "Organization",
+    "name": "polytheseus",
+    "url": "https://polytheseus.com/"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What must an invoice include in the UK?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A unique invoice number, your business name, address and contact details, the customer's name and address, a clear description of what you're charging for, the date the work was done, the invoice date, the amounts, VAT if you charge it, and the total owed. Sole traders using a business name also show their own name; limited companies show the full registered name."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need to put VAT on my invoice if I'm not VAT registered?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. You can't charge VAT unless you're registered. Say \"Not VAT registered\" on the invoice so the customer doesn't wonder whether it'll be added later. You must register once your taxable turnover passes £90,000 in a rolling 12 months."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What do I write on an invoice for the construction reverse charge?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Show everything a VAT invoice needs, don't add the VAT to the amount charged, and add a note such as \"Reverse charge: customer to pay the VAT to HMRC\" or \"VAT Act 1994 Section 55A applies\", with the amount of VAT due under the reverse charge. It only applies when your customer is VAT and CIS registered and isn't an end user."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I show CIS on an invoice?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Split labour and materials, then show the deduction on labour only: 20% if you're registered for CIS, 30% if not, 0% with gross payment status. The contractor takes it off when they pay you and gives you a monthly statement."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "When does a customer have to pay an invoice?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "By the date you agreed. If no date was agreed, gov.uk says the customer must pay within 30 days of getting the invoice or the work. Put a due date and how to pay on every invoice."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What's the difference between an invoice and a receipt?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "An invoice asks for payment; a receipt confirms you've been paid. If a customer pays on the day, give them a receipt with the same details, marked \"Paid in full\" with the date and how they paid."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "I made a mistake on an invoice. Can I just change it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not once it's been sent. Issue a credit note that cancels all or part of it, then a new invoice with a new number. That keeps your numbering and your records straight."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<!-- pt:head -->
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/brand.css">
+<meta property="og:image" content="https://polytheseus.com/assets/og/trades-skills.png">
+<meta name="twitter:card" content="summary_large_image">
+<!-- /pt:head -->
+</head>
+<body>
+<!-- pt:bar -->
+<nav class="pt-bar" aria-label="Polytheseus">
+  <div class="pt-bar-in">
+    <a class="pt-brand" href="/"><img src="/assets/favicon.svg" alt="" width="30" height="30"><span>POLYTHESEUS</span></a>
+    <div class="pt-nav">
+      <a href="/#packs">Packs</a>
+      <a href="/tools">Free tools</a>
+      <a class="pt-hide-sm" href="/#how">How it works</a>
+      <a class="pt-hide-sm" href="/#about">About</a>
+      <a class="pt-cta" href="/#packs">Start free</a>
+    </div>
+  </div>
+</nav>
+<!-- /pt:bar -->
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="../">Trades Skills</a> · Guide</p>
+    <h1>Invoice template for trades: <em>what to include</em> and a free invoice maker</h1>
+    <p class="lede">An invoice with a missing date, no bank details or VAT done wrong gets paid late or queried. This guide covers what a UK invoice has to show, how VAT, the construction reverse charge and CIS go on it, and a free maker that writes the invoice, checks it, and prints it to PDF.</p>
+    <p class="small" style="color:#bfc3c8">Updated 28 October 2026 · UK · Checked against gov.uk, HMRC VAT Notice 700 and legislation.gov.uk · General information, not tax or legal advice</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+<div class="answer">
+  <p><strong>The short answer:</strong> every UK invoice needs a <strong>unique invoice number</strong>, your <strong>business name, address and contact details</strong>, the <strong>customer's name and address</strong>, a <strong>clear description</strong> of the work, the <strong>date the work was done</strong> and the <strong>invoice date</strong>, the <strong>amounts</strong>, <strong>VAT</strong> if you charge it, and the <strong>total owed</strong> (<a href="https://www.gov.uk/invoicing-and-taking-payment-from-customers/invoices-what-they-must-include">gov.uk</a>). Add a <strong>due date</strong> and <strong>how to pay</strong>, because those are what get it paid.</p>
+  <p>Sole traders using a business name also show their own name. Limited companies use the full registered name. VAT-registered trades billing a CIS contractor usually use the <strong>reverse charge</strong>, and CIS comes off the <strong>labour only</strong>.</p>
+</div>
+
+<p class="toc"><strong>Jump to:</strong> <a href="#maker">Invoice maker</a> · <a href="#must">What it must include</a> · <a href="#who">Sole trader or limited company</a> · <a href="#vat">VAT invoices</a> · <a href="#reverse">Reverse charge</a> · <a href="#cis">CIS</a> · <a href="#pay">Getting paid</a> · <a href="#numbers">Numbers, mistakes, records</a> · <a href="#template">Copy-and-paste template</a> · <a href="#ai">Using AI</a> · <a href="#faq">FAQ</a></p>
+
+<section id="maker">
+<h2>Free invoice and receipt maker</h2>
+<p>Fill in the job, add a line for each thing you're charging for, and it adds it up, does the VAT, reverse charge or CIS, and flags anything missing or likely to get queried. Print it or save it as a PDF from the print screen, or copy it into Word or Google Docs. Everything stays in your browser. Nothing you type is sent anywhere.</p>
+<form class="calc" id="im-form">
+  <div class="row">
+    <div><label for="im-mode">Make</label><select id="im-mode"><option value="invoice">An invoice (asking for payment)</option><option value="receipt">A receipt (they've already paid)</option></select></div>
+  </div>
+  <h3>You</h3>
+  <div class="row">
+    <div><label for="im-structure">You trade as</label><select id="im-structure"><option value="sole">A sole trader</option><option value="ltd">A limited company</option><option value="partnership">A partnership</option></select></div>
+    <div><label for="im-business">Business name</label><input id="im-business" placeholder="Hale Plumbing &amp; Heating"></div>
+    <div><label for="im-owner">Your own name <span>(sole traders)</span></label><input id="im-owner" placeholder="Robin Hale"></div>
+  </div>
+  <div class="row">
+    <div><label for="im-address">Your address</label><input id="im-address" placeholder="4 Mill Lane, Leeds LS6 2AB"></div>
+    <div><label for="im-contact">Phone / email</label><input id="im-contact" placeholder="07700 900123"></div>
+    <div><label for="im-vatno">VAT number <span>(if registered)</span></label><input id="im-vatno" placeholder="GB123456789"></div>
+  </div>
+  <div class="row" id="im-ltd" hidden>
+    <div><label for="im-cono">Company number</label><input id="im-cono" placeholder="12345678"></div>
+    <div><label for="im-regin">Registered in</label><select id="im-regin"><option>England and Wales</option><option>Scotland</option><option>Northern Ireland</option><option>Wales</option></select></div>
+    <div><label for="im-regoff">Registered office <span>(if different)</span></label><input id="im-regoff" placeholder="4 Mill Lane, Leeds LS6 2AB"></div>
+  </div>
+  <h3>The customer and the job</h3>
+  <div class="row">
+    <div><label for="im-customer">Customer is</label><select id="im-customer"><option value="homeowner">A homeowner or tenant</option><option value="business">A business or landlord</option><option value="contractor">A contractor (I'm their CIS subcontractor)</option></select></div>
+    <div><label for="im-cust">Customer name</label><input id="im-cust" placeholder="Sam Patel"></div>
+    <div><label for="im-custaddr">Customer address</label><input id="im-custaddr" placeholder="12 Elm Road, Leeds LS8 1QT"></div>
+  </div>
+  <div class="row">
+    <div id="im-cis-wrap" hidden><label for="im-cis">CIS deduction</label><select id="im-cis"><option value="20">20% (I'm registered for CIS)</option><option value="30">30% (not registered)</option><option value="0">0% (gross payment status)</option></select></div>
+    <div><label for="im-jobaddr">Job address <span>(if different)</span></label><input id="im-jobaddr" placeholder="Flat 2, 9 Oak Street, Leeds"></div>
+    <div><label for="im-quote">Your quote number <span>(optional)</span></label><input id="im-quote" placeholder="Q-0042"></div>
+  </div>
+  <div class="row">
+    <div><label for="im-num">Invoice number</label><input id="im-num" placeholder="INV-0042"></div>
+    <div><label for="im-date">Invoice date</label><input type="date" id="im-date"></div>
+    <div><label for="im-supply">Work done or finished on</label><input type="date" id="im-supply"></div>
+  </div>
+  <label for="im-summary">The job in one line <span>(optional)</span></label><input id="im-summary" style="max-width:100%" placeholder="Two bedroom radiators replaced">
+  <label for="im-items">What you're charging for <span>(one line each: description | amount, or description | quantity x price; add "| labour" or "| materials" for CIS)</span></label>
+  <textarea id="im-items" rows="5" placeholder="Labour, 1 day | 320
+Two 600 x 1000 mm double panel radiators | 2 x 98.20
+Thermostatic radiator valves | 2 x 32
+Inhibitor | 26"></textarea>
+  <h3>VAT and payment</h3>
+  <div class="row">
+    <div><label for="im-vat">VAT</label><select id="im-vat"><option value="none">Not VAT registered / no VAT</option><option value="add20">Add VAT at 20%</option><option value="add5">Add VAT at 5%</option><option value="rc">Reverse charge (CIS contractor pays the VAT)</option></select></div>
+    <div><label for="im-dep">Deposit already paid <span>(£, optional)</span></label><input id="im-dep" inputmode="decimal" placeholder="0"></div>
+    <div><label for="im-guar">Guarantee <span>(optional)</span></label><input id="im-guar" placeholder="12 months on our workmanship"></div>
+  </div>
+  <div id="im-terms-wrap">
+    <div class="row">
+      <div><label for="im-pay">Pay within <span>(days, 0 = on receipt)</span></label><input id="im-pay" inputmode="numeric" placeholder="7"></div>
+    </div>
+    <label for="im-bank">How to pay</label><input id="im-bank" style="max-width:100%" placeholder="Bank transfer to Hale Plumbing, sort code 12-34-56, account 12345678">
+  </div>
+  <div class="row" id="im-paid-wrap" hidden>
+    <div><label for="im-paidon">Paid on</label><input type="date" id="im-paidon"></div>
+    <div><label for="im-paidby">Paid by <span>(optional)</span></label><input id="im-paidby" placeholder="card"></div>
+  </div>
+  <button type="submit">Write and check my invoice</button>
+  <div id="im-out" aria-live="polite"></div>
+</form>
+<p class="small">The checker spots common problems; it can't see your job or your VAT position. Read the invoice through and check the figures before you send it. If you're unsure about VAT or CIS on a job, ask your accountant or HMRC.</p>
+</section>
+
+<section id="must">
+<h2>What a UK invoice must include</h2>
+<p>This is gov.uk's list, with what it means for a trades job. If you're VAT registered there's more (see <a href="#vat">VAT invoices</a>).</p>
+<table class="t">
+  <tr><th>Must include</th><th>On a trades invoice</th></tr>
+  <tr><td><strong>A unique identification number</strong></td><td>INV-0001, INV-0002… in order. Never reuse one, even for a cancelled invoice.</td></tr>
+  <tr><td><strong>Your name, address and contact details</strong></td><td>Business name, address, phone and email. Add your Gas Safe or NICEIC number if it's relevant to the job; customers like seeing it.</td></tr>
+  <tr><td><strong>The customer's name and address</strong></td><td>The person or company paying. If the job was somewhere else (a rental flat, a building site plot), add the job address too.</td></tr>
+  <tr><td><strong>A clear description of what you're charging for</strong></td><td>"Replaced two bedroom radiators and fitted TRVs", not "work done". Quote your quote number so they can match it.</td></tr>
+  <tr><td><strong>The date the work was done</strong> (supply date)</td><td>The day you finished, or the period for a longer job ("work 19–30 October 2026").</td></tr>
+  <tr><td><strong>The date of the invoice</strong></td><td>The day you send it. Send it the day you finish if you can.</td></tr>
+  <tr><td><strong>The amounts charged</strong></td><td>A line each for labour, materials and anything else (skip, hire, call-out). Quantities help: "2 x £98.20".</td></tr>
+  <tr><td><strong>VAT, if applicable</strong></td><td>Only if you're registered. If not, say so.</td></tr>
+  <tr><td><strong>The total amount owed</strong></td><td>After any deposit already paid or CIS deduction, so they know exactly what to send.</td></tr>
+</table>
+<p>Not on gov.uk's list, but they decide how fast you're paid: a <strong>due date</strong> ("Payment due by 4 November 2026"), <strong>how to pay</strong> (bank details with the invoice number as the reference), and a <strong>name and number</strong> to call with questions. If no payment date was agreed, the customer must pay within 30 days of getting the invoice or the work (<a href="https://www.gov.uk/invoicing-and-taking-payment-from-customers/payment-obligations">gov.uk</a>).</p>
+</section>
+
+<section id="who">
+<h2>Sole trader, partnership or limited company</h2>
+<table class="t">
+  <tr><th>You are</th><th>Extra on the invoice</th></tr>
+  <tr><td><strong>Sole trader using your own name</strong></td><td>Nothing extra. "Robin Hale, Plumbing and Heating" is fine.</td></tr>
+  <tr><td><strong>Sole trader using a business name</strong></td><td>Your own name too, and an address where legal documents can reach you (<a href="https://www.gov.uk/invoicing-and-taking-payment-from-customers/invoices-what-they-must-include">gov.uk</a>). "Robin Hale trading as Hale Plumbing &amp; Heating" does both jobs.</td></tr>
+  <tr><td><strong>Limited company</strong></td><td>The full registered name as on the certificate of incorporation ("Hale Plumbing Ltd", not "Hale Plumbing"). Companies must also show the company number, where it's registered and the registered office on business letters and order forms (<a href="https://www.legislation.gov.uk/uksi/2015/17/regulation/25/made">2015 regulations, reg 25</a>), so put them in the invoice footer. If you name one director, you must name them all.</td></tr>
+</table>
+</section>
+
+<section id="vat">
+<h2>VAT invoices: what changes once you're registered</h2>
+<p>If you're <strong>not VAT registered</strong>, don't add VAT, and write "Not VAT registered" on the invoice so nobody wonders. You must register if your taxable turnover goes over <strong>£90,000</strong> in a rolling 12 months (<a href="https://www.gov.uk/vat-registration/when-to-register">gov.uk</a>).</p>
+<p>Once you <strong>are registered</strong>, you must give a VAT invoice to VAT-registered customers, and in practice to anyone who asks. HMRC's list (<a href="https://www.gov.uk/guidance/vat-guide-notice-700#section16">VAT Notice 700, 16.3</a>) adds to the basics:</p>
+<ul>
+  <li>a <strong>sequential number</strong></li>
+  <li>the <strong>time of supply</strong> (tax point), and the issue date if different</li>
+  <li>your <strong>VAT registration number</strong> (and the name and address you're registered under, if you invoice under a trading name)</li>
+  <li>for each line: the <strong>quantity or extent</strong> of the work, the <strong>VAT rate</strong>, and the <strong>amount excluding VAT</strong>; and the unit price where the work is countable (an hourly or day rate)</li>
+  <li>the <strong>total excluding VAT</strong>, the <strong>total VAT</strong> in sterling, and any cash discount rate offered</li>
+</ul>
+<p>For a job of <strong>£250 or less</strong> including VAT you can give a simpler VAT invoice if the customer agrees (16.6.1). Send VAT invoices within 30 days of the tax point (16.2.3). Most domestic trades work is at the standard 20%. Some energy-saving installations in homes are zero-rated until 31 March 2027 (<a href="https://www.gov.uk/guidance/vat-on-energy-saving-materials-and-heating-equipment-notice-7086">notice 708/6</a>), so check the notice before you charge VAT on a heat pump, insulation or solar job.</p>
+</section>
+
+<section id="reverse">
+<h2>The construction reverse charge (VAT-registered subcontractors)</h2>
+<p>If you're VAT registered and do construction work for a <strong>contractor who is VAT and CIS registered</strong>, the <a href="https://www.gov.uk/guidance/vat-domestic-reverse-charge-for-building-and-construction-services">domestic reverse charge</a> usually applies: you don't charge VAT, and the contractor pays it to HMRC instead. It covers most building work, including installing heating, plumbing, electrics and drainage, and painting and decorating.</p>
+<p>It <strong>doesn't</strong> apply to homeowners or other customers who aren't VAT and CIS registered, or to an <strong>end user</strong> (a business that isn't selling the work on, such as a shop having its own premises refitted) who has told you so in writing. Then you charge VAT as normal.</p>
+<p>On the invoice, HMRC's <a href="https://www.gov.uk/guidance/vat-reverse-charge-technical-guide">technical guide</a> says to:</p>
+<ul>
+  <li>show everything a normal VAT invoice needs</li>
+  <li>add a note that the reverse charge applies and the customer accounts for the VAT, using the words "reverse charge". HMRC's examples: <strong>"Customer to pay the VAT to HMRC"</strong>, <strong>"VAT Act 1994 Section 55A applies"</strong> or <strong>"S55A VATA 94 applies"</strong></li>
+  <li>state the <strong>amount of VAT due</strong> under the reverse charge (or the rate, if your software can't show the amount), but <strong>don't add it</strong> to what the customer pays you</li>
+</ul>
+<p>The invoice maker does all three when you pick "Reverse charge", and warns if you pick it for a homeowner.</p>
+</section>
+
+<section id="cis">
+<h2>CIS deductions on an invoice</h2>
+<p>Under the Construction Industry Scheme, the contractor takes a deduction from what they pay you and sends it to HMRC as an advance on your tax and National Insurance (<a href="https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor">gov.uk</a>):</p>
+<table class="t">
+  <tr><th>Your CIS status</th><th>Deduction</th></tr>
+  <tr><td>Registered for CIS and verified by the contractor</td><td><strong>20%</strong></td></tr>
+  <tr><td>Not registered (or they can't verify you)</td><td><strong>30%</strong></td></tr>
+  <tr><td>Gross payment status</td><td><strong>0%</strong> (you pay your own tax)</td></tr>
+</table>
+<p>The deduction comes off <strong>labour only</strong>. It isn't taken from VAT, materials you paid for, plant hired for the job, or consumables. So list materials as separate lines and keep the receipts: the contractor can ask for them, and will estimate the materials if you can't show them.</p>
+<p>A worked example: a VAT-registered plumber, registered for CIS, does three days' first fix for a contractor at £220 a day and supplied £184.50 of copper and fittings.</p>
+<pre class="email">   Labour, first fix plumbing, 3 days (3 x £220.00)  £660.00
+   Copper pipe and fittings                          £184.50
+   Subtotal (excluding VAT)                          £844.50
+   VAT                                               £0.00
+   TOTAL                                             £844.50
+   Reverse charge: customer to pay the VAT to HMRC. VAT Act 1994 Section 55A applies.
+   VAT due under the reverse charge: £168.90 at 20%.
+
+   CIS: labour £660.00, materials £184.50
+   Less CIS deduction at 20% of labour               -£132.00
+   AMOUNT DUE                                        £712.50</pre>
+<p>The contractor pays £712.50 and must give you a payment and deduction statement within 14 days of the end of each tax month. Keep every statement: the £132 counts towards your tax and National Insurance on your Self Assessment return (your bookkeeper or accountant will want them).</p>
+</section>
+
+<section id="pay">
+<h2>Deposits, stage payments and getting paid on time</h2>
+<ul>
+  <li><strong>Deposit already paid?</strong> Show the full job on the final invoice, then "Less deposit paid", then the amount due. The customer sees the whole price and what's left.</li>
+  <li><strong>Stage payments:</strong> one invoice per stage, each with its own number, saying which stage it's for ("Stage 2 of 3: first fix complete"). Tie stages to things the customer can see.</li>
+  <li><strong>Payment terms:</strong> match what your quote said. Homeowners: on completion or within 7 days is common. Businesses: 30 days is usual. For business customers, terms over 60 days only count if they were expressly agreed and aren't grossly unfair to you (<a href="https://www.legislation.gov.uk/ukpga/1998/20/section/4">Late Payment Act, s.4</a>).</li>
+  <li><strong>Make paying easy:</strong> bank details on the invoice, the invoice number as the reference, and a short message with it saying the amount and due date. The invoice maker writes that message.</li>
+  <li><strong>Still not paid?</strong> Business customers owe statutory interest at 8% over Bank Rate plus £40–£100 compensation once it's late; homeowners only owe interest if your terms said so. Our <a href="late-payment-interest-calculator">late payment calculator</a> works it out and writes the chaser.</li>
+</ul>
+</section>
+
+<section id="numbers">
+<h2>Invoice numbers, mistakes, receipts and how long to keep them</h2>
+<ul>
+  <li><strong>Numbering:</strong> one sequence, no gaps, never reused. A prefix is fine (INV-0042, or 2026-042). Starting at INV-0001 is fine too; nobody can tell.</li>
+  <li><strong>Got it wrong?</strong> Don't edit an invoice you've sent. Issue a credit note cancelling it (or the wrong part), then a new invoice with a new number. That keeps your numbers and your VAT records straight.</li>
+  <li><strong>Invoice or receipt?</strong> An invoice asks for payment; a receipt confirms it. If they pay on the day, give a receipt with the same details marked "Paid in full", the date and how they paid (pick "A receipt" in the maker).</li>
+  <li><strong>Keep copies</strong> of every invoice you send. Sole traders: at least 5 years after the 31 January deadline for that tax year (<a href="https://www.gov.uk/self-employed-records/how-long-to-keep-your-records">gov.uk</a>). VAT records: at least 6 years. A folder of PDFs, named by invoice number, is enough.</li>
+</ul>
+</section>
+
+<section id="template">
+<h2>Plain invoice template to copy</h2>
+<p>If you'd rather fill in a template in Word, Google Docs or your notes app, copy this. Delete the lines that don't apply (VAT, CIS, company details).</p>
+<pre class="email">[Your business name]  ([Your name] trading as [business name], if sole trader)
+[Your address]
+[Phone] · [Email]
+VAT reg. no. [GB123456789]                (only if VAT registered)
+
+INVOICE  No. [INV-0001]    Date: [date sent]    Work done: [date or dates]
+Bill to: [Customer name], [customer address]
+Job address: [if different]
+Your quote: [Q-0001]
+
+[The job in one line]
+
+   [Labour, 1 day]                        £[000.00]
+   [Materials: what, how many]            £[000.00]
+   [Other: skip, hire, call-out]          £[000.00]
+   TOTAL                                  £[000.00]
+   No VAT: we're not VAT registered.      (or: Subtotal / VAT at 20% / TOTAL)
+   Less deposit paid                      -£[000.00]
+   AMOUNT DUE                             £[000.00]
+
+Payment due: by [date] ([7] days).
+How to pay: bank transfer to [account name], sort code [00-00-00], account [00000000].
+Please use [INV-0001] as the reference.
+
+[Company name] Ltd. Registered in England and Wales, company no. [00000000].
+Registered office: [address].                       (limited companies only)</pre>
+</section>
+
+<section id="ai">
+<h2>Using ChatGPT, Gemini or Claude for invoices</h2>
+<p>AI is handy for turning a job sheet or a voice note into tidy invoice lines. It's risky with numbers: it can add up wrong, invent a VAT figure, or apply the reverse charge to a homeowner. So give it your figures, tell it not to work out tax itself, and check the totals (or paste the lines into the maker above).</p>
+<pre class="email">Turn my job notes into invoice lines for a UK trades invoice.
+One line each: description | amount (or quantity x price). Mark each line labour or materials.
+Use only my figures. Do NOT add VAT, CIS or totals, and don't invent prices: if a price is missing, write [?].
+Make each description specific enough that the customer knows what they're paying for.
+
+Notes: [paste job notes or voice-note transcript]
+Prices: [day rate, materials with costs, other]</pre>
+<p>Leave the customer's address and phone out of the chat; add them in the maker or your template.</p>
+</section>
+
+<div class="cta">
+  <p style="margin-top:0"><strong>Quote it, invoice it, chase it.</strong> Our free <a href="../#setup">Trades Skills</a> for ChatGPT, Gemini and Claude include <strong>quote-builder</strong> (rough notes into a clear quote, so the invoice matches what was agreed) and <strong>payment-chaser</strong> (the right reminder for an overdue invoice, from friendly to letter before action, with UK late-payment interest worked out).</p>
+  <p><strong>Trades Skills Pro</strong> adds <strong>change-order</strong> (price extra work mid-job so it's on the invoice, not an argument), <strong>customer-terms</strong> (plain-English terms with your payment terms), <strong>job-handover</strong>, <strong>complaint-handler</strong> and <strong>price-rise</strong>.</p>
+  <p style="margin-bottom:0"><a class="btn" href="../#setup">Get the free skills</a> <a class="btn ghost" href="../#pro">See Trades Skills Pro</a></p>
+</div>
+
+<section id="faq">
+<h2>FAQ</h2>
+<details><summary>What must an invoice include in the UK?</summary><p>A unique invoice number, your business name, address and contact details, the customer's name and address, a clear description of what you're charging for, the date the work was done, the invoice date, the amounts, VAT if you charge it, and the total owed. Sole traders using a business name also show their own name; limited companies show the full registered name.</p></details>
+<details><summary>Do I need to put VAT on my invoice if I'm not VAT registered?</summary><p>No. You can't charge VAT unless you're registered. Say "Not VAT registered" on the invoice so the customer doesn't wonder whether it'll be added later. You must register once your taxable turnover passes £90,000 in a rolling 12 months.</p></details>
+<details><summary>What do I write on an invoice for the construction reverse charge?</summary><p>Show everything a VAT invoice needs, don't add the VAT to the amount charged, and add a note such as "Reverse charge: customer to pay the VAT to HMRC" or "VAT Act 1994 Section 55A applies", with the amount of VAT due under the reverse charge. It only applies when your customer is VAT and CIS registered and isn't an end user.</p></details>
+<details><summary>How do I show CIS on an invoice?</summary><p>Split labour and materials, then show the deduction on labour only: 20% if you're registered for CIS, 30% if not, 0% with gross payment status. The contractor takes it off when they pay you and gives you a monthly statement.</p></details>
+<details><summary>When does a customer have to pay an invoice?</summary><p>By the date you agreed. If no date was agreed, gov.uk says the customer must pay within 30 days of getting the invoice or the work. Put a due date and how to pay on every invoice.</p></details>
+<details><summary>What's the difference between an invoice and a receipt?</summary><p>An invoice asks for payment; a receipt confirms you've been paid. If a customer pays on the day, give them a receipt with the same details, marked "Paid in full" with the date and how they paid.</p></details>
+<details><summary>I made a mistake on an invoice. Can I just change it?</summary><p>Not once it's been sent. Issue a credit note that cancels all or part of it, then a new invoice with a new number. That keeps your numbering and your records straight.</p></details>
+</section>
+
+<p class="small">Sources, checked 28 October 2026: <a href="https://www.gov.uk/invoicing-and-taking-payment-from-customers">gov.uk: Invoicing and taking payment from customers</a>; <a href="https://www.gov.uk/guidance/vat-guide-notice-700">HMRC VAT Notice 700</a> sections 16.2, 16.3 and 16.6; <a href="https://www.gov.uk/guidance/vat-reverse-charge-technical-guide">HMRC VAT domestic reverse charge technical guide</a> (invoices, end users); <a href="https://www.gov.uk/what-you-must-do-as-a-cis-subcontractor">gov.uk: What you must do as a CIS subcontractor</a>; <a href="https://www.legislation.gov.uk/uksi/2015/17/regulation/25/made">Company, LLP and Business (Names and Trading Disclosures) Regulations 2015</a> reg 25; <a href="https://www.legislation.gov.uk/ukpga/1998/20/section/4">Late Payment of Commercial Debts (Interest) Act 1998</a> s.4; <a href="https://www.gov.uk/vat-registration/when-to-register">gov.uk: VAT registration threshold</a>; <a href="https://www.gov.uk/self-employed-records/how-long-to-keep-your-records">gov.uk: how long to keep records</a>. This page is general information for UK trades, not tax or legal advice. VAT and CIS depend on your circumstances: check with HMRC or an accountant if you're unsure.</p>
+
+</main>
+<script src="invoice-maker.js"></script>
+<!-- pt:foot -->
+<footer class="pt-foot">
+  <div class="pt-foot-in">
+    <div>
+      <a class="pt-brand" href="/"><img src="/assets/favicon.svg" alt="" width="30" height="30"><span>POLYTHESEUS</span></a>
+      <p>Know-how packs that make ChatGPT, Gemini and Claude work like an experienced pro in your job. Free to start.</p>
+      <p><a href="mailto:support@polytheseus.com">support@polytheseus.com</a></p>
+    </div>
+    <div>
+      <h4>Packs</h4>
+      <ul><li><a href="/teacher-skills/">Teachers</a></li><li><a href="/trades-skills/">Trades</a></li><li><a href="/bookkeeper-skills/">Bookkeepers</a></li><li><a href="/real-estate-skills/">Real estate agents</a></li><li><a href="/seller-skills/">Online sellers</a></li><li><a href="/sre-skills/">SRE &amp; DevOps</a></li></ul>
+    </div>
+    <div>
+      <h4>Polytheseus</h4>
+      <ul>
+        <li><a href="/tools">Free tools</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="https://github.com/polytheseus">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="pt-foot-base">Polytheseus is run by Robin Hale. The packs and this site are written and tested by Claude, an AI agent. <a href="/#about">How that works</a>.</div>
+</footer>
+<!-- /pt:foot -->
+</body>
+</html>
