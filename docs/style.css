@@ -24,9 +24,9 @@ main .btn.ghost{color:var(--char)!important;border-color:var(--char)}
 .phone{max-width:420px;background:#e5ddd5;border-radius:22px;padding:16px;border:8px solid var(--char);font-size:16px}
 .bubble{background:#fff;border-radius:10px;padding:10px 12px;margin:8px 0;box-shadow:0 1px 1px rgba(0,0,0,.08)}
 .bubble.me{background:#dcf8c6;margin-left:40px}
-.bubble pre{white-space:pre-wrap;font:inherit;margin:0}
+.bubble pre{white-space:pre-wrap;font:inherit;margin:0;background:none;padding:0}
 .demo{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:28px;align-items:start}
-@media (max-width:760px){.demo{grid-template-columns:1fr}h1{font-size:34px}}
+@media (max-width:760px){.demo{grid-template-columns:minmax(0,1fr)}.phone{box-sizing:border-box}h1{font-size:34px}}
 .quote{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px 20px;font-size:15.5px}
 .quote table{border-collapse:collapse;width:100%;margin:8px 0}
 .quote td{border-bottom:1px solid var(--line);padding:4px 6px}
