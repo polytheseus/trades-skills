@@ -59,8 +59,9 @@ Then sort the review:
   (not a generic inbox).
 - **Don't admit legal liability** for damage or injury. If the review
   alleges damage, injury, a gas or electrical safety issue, or threatens
-  legal action, keep the reply minimal ("We take this seriously and have
-  contacted you directly") and tell the owner to speak to their insurer
+  legal action, keep the reply minimal, two sentences with no cause and no
+  promise ("We take this seriously and have contacted you directly"), and
+  tell the owner to speak to their insurer
   before saying more. If there's a live safety risk (a gas smell, exposed
   wiring), the owner should contact the customer today, not just reply
   online.
@@ -101,7 +102,11 @@ harassment). Other platforms have similar flags. Removal isn't guaranteed.
 
 Draft a short private message (SMS/email) to the customer for negative
 reviews: acknowledge, offer the fix or a call, and give a time. Don't
-mention the review rating and don't ask them to change it.
+mention the review rating and don't ask them to change it. If the review
+alleges damage or injury, offer to come and look and nothing more: no
+cause, and no promise to fix or pay for the damage until the owner has
+spoken to their insurer. If it looks fake and the owner has no way to
+reach the person, skip this message.
 
 ## Step 5: Ask happy customers for reviews
 

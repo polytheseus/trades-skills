@@ -106,6 +106,13 @@ Write scope lines that a stranger could check off. "Supply and fit 8 new
 LED downlights (warm white, fire-rated) in kitchen ceiling, wired to
 existing switch" beats "new kitchen lights".
 
+**The scope is what the trader told you.** A fixed quote holds them to every
+line, so a line they didn't mention may be work they're giving away. Do
+suggest what the job normally needs (protection, testing, commissioning,
+certificates, waste removal, making good), but end each of those lines with
+`[add?]` and list them in your notes. The same goes for any test, visit or
+document you'd promise under Assumptions.
+
 Suggest exclusions the trader may have forgotten. Common ones by trade:
 
 - **All trades**: making good / redecoration after work; moving furniture;
@@ -135,6 +142,8 @@ consumer protection or licensing office).
 
 - **Deposits**: keep them proportionate to materials and booking costs.
   Big upfront deposits put customers off and can be challenged as unfair.
+  Compare the deposit with the materials cost, if you have it. Don't say a
+  percentage is common or normal: you have no data for it.
   Some US states cap home improvement deposits (e.g. California limits most
   home improvement down payments to 10% or $1,000, whichever is less). Flag
   this and tell US traders to check their state.
@@ -169,6 +178,7 @@ consumer protection or licensing office).
 - [ ] Validity date and how to accept are present.
 - [ ] Change/extra-work clause is present.
 - [ ] No invented prices, specs, certifications or guarantees.
+- [ ] Every scope line the trader didn't mention ends with `[add?]`.
 - [ ] Plain English, no jargon the customer won't know (or explained in brackets).
 
 ## Output
@@ -176,10 +186,12 @@ consumer protection or licensing office).
 1. **The quote**, formatted to paste into an email, Word, Google Docs or a
    quoting app.
 2. **A short covering message** (under 80 words) to send with it: thanks
-   for the visit, the headline price, the validity date, and an invitation
-   to ask questions.
-3. **Notes for you** (3–5 bullets): gaps marked `[?]`, assumptions you made,
-   legal points to check for their location, and an optional upsell they
+   for the visit (only if the notes show there was one), the headline
+   price, the start date in the trader's own words ("the week of 16
+   November" stays that), the validity date, and an invitation to ask
+   questions.
+3. **Notes for you** (3–5 bullets): gaps marked `[?]`, `[add?]` lines to
+   keep or cut, assumptions you made, legal points to check for their location, and an optional upsell they
    could offer as a priced extra.
 
 If the trader asks you to check an existing quote, return the same

@@ -32,8 +32,10 @@ Ask only for what's missing:
   sequence in Step 4.
 - **Disputed** (the customer says something's wrong with the work):
   chasing harder makes it worse. Draft a reply that acknowledges the
-  specific complaint, offers to inspect or fix if reasonable, and asks for
-  payment of any **undisputed** part now. Keep it factual and dated.
+  specific complaint, offers to come and look, and asks for payment of any
+  **undisputed** part now. Keep it factual and dated. Don't promise a free
+  fix or accept the fault unless the user says so: "if it's down to our
+  work, I'll put it right" is as far as a first reply goes.
 - **Partial dispute**: ask for the undisputed amount now and set out a
   plan for the disputed amount.
 - **Can't pay** (hardship): offer a written payment plan (Step 5). Getting
@@ -49,7 +51,10 @@ Debts (Interest) Act 1998, a business can claim:
   1 July–31 December) or 31 December (for 1 January–30 June). Look up the
   current rate on the Bank of England website; never guess it.
 - **Daily interest** = amount owed × (8% + base rate) ÷ 365, multiplied by
-  the number of days overdue. Show the working.
+  the number of days overdue. Show the working. If you don't have the
+  rate, put `£[?]` in the message, and in the working give the 8% figure
+  and what each 1 percentage point of base rate adds, in pounds. No
+  formulas for the user to solve.
 - **Fixed compensation** per invoice: **£40** for debts under £1,000,
   **£70** for £1,000–£9,999.99, and **£100** for £10,000 or more.
 - If no payment date was agreed, payment is late 30 days after the
@@ -82,7 +87,7 @@ Default timeline. Adjust it to the payment terms and the relationship.
 | 1. Friendly reminder | 1–3 days overdue | Assume it's an oversight | Email + text |
 | 2. Firm reminder | 7–14 days overdue | Clear, factual, a date to pay by | Email + phone call |
 | 3. Final notice | 21–30 days overdue | Firm, states what happens next | Email + post |
-| 4. Letter before action | 30–45 days overdue | Formal, 14 days to pay | Post (recorded) + email |
+| 4. Letter before action | 30–45 days overdue | Formal. England and Wales: 30 days for an individual or sole trader, 14 for a company | Post (recorded) + email |
 | 5. Next step | After the deadline | Act on what you said | Court claim / agency |
 
 Never threaten something the user isn't prepared to do. Every message
@@ -178,4 +183,5 @@ is frozen while they keep to the plan. Both parties confirm in writing.
 4. **Interest calculation** if applicable, with working.
 5. **Notes**: anything to check locally, and how to prevent this next time
    (deposit, stage payments, shorter terms, payment link on the invoice,
-   late-payment terms in the quote).
+   late-payment terms in the quote). Don't say what deposit percentage is
+   common: you have no data for it.

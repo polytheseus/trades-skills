@@ -114,6 +114,13 @@ Write scope lines that a stranger could check off. "Supply and fit 8 new
 LED downlights (warm white, fire-rated) in kitchen ceiling, wired to
 existing switch" beats "new kitchen lights".
 
+**The scope is what the trader told you.** A fixed quote holds them to every
+line, so a line they didn't mention may be work they're giving away. Do
+suggest what the job normally needs (protection, testing, commissioning,
+certificates, waste removal, making good), but end each of those lines with
+`[add?]` and list them in your notes. The same goes for any test, visit or
+document you'd promise under Assumptions.
+
 Suggest exclusions the trader may have forgotten. Common ones by trade:
 
 - **All trades**: making good / redecoration after work; moving furniture;
@@ -143,6 +150,8 @@ consumer protection or licensing office).
 
 - **Deposits**: keep them proportionate to materials and booking costs.
   Big upfront deposits put customers off and can be challenged as unfair.
+  Compare the deposit with the materials cost, if you have it. Don't say a
+  percentage is common or normal: you have no data for it.
   Some US states cap home improvement deposits (e.g. California limits most
   home improvement down payments to 10% or $1,000, whichever is less). Flag
   this and tell US traders to check their state.
@@ -177,6 +186,7 @@ consumer protection or licensing office).
 - [ ] Validity date and how to accept are present.
 - [ ] Change/extra-work clause is present.
 - [ ] No invented prices, specs, certifications or guarantees.
+- [ ] Every scope line the trader didn't mention ends with `[add?]`.
 - [ ] Plain English, no jargon the customer won't know (or explained in brackets).
 
 ## Output
@@ -184,10 +194,12 @@ consumer protection or licensing office).
 1. **The quote**, formatted to paste into an email, Word, Google Docs or a
    quoting app.
 2. **A short covering message** (under 80 words) to send with it: thanks
-   for the visit, the headline price, the validity date, and an invitation
-   to ask questions.
-3. **Notes for you** (3–5 bullets): gaps marked `[?]`, assumptions you made,
-   legal points to check for their location, and an optional upsell they
+   for the visit (only if the notes show there was one), the headline
+   price, the start date in the trader's own words ("the week of 16
+   November" stays that), the validity date, and an invitation to ask
+   questions.
+3. **Notes for you** (3–5 bullets): gaps marked `[?]`, `[add?]` lines to
+   keep or cut, assumptions you made, legal points to check for their location, and an optional upsell they
    could offer as a priced extra.
 
 If the trader asks you to check an existing quote, return the same
@@ -229,8 +241,10 @@ Ask only for what's missing:
   sequence in Step 4.
 - **Disputed** (the customer says something's wrong with the work):
   chasing harder makes it worse. Draft a reply that acknowledges the
-  specific complaint, offers to inspect or fix if reasonable, and asks for
-  payment of any **undisputed** part now. Keep it factual and dated.
+  specific complaint, offers to come and look, and asks for payment of any
+  **undisputed** part now. Keep it factual and dated. Don't promise a free
+  fix or accept the fault unless the user says so: "if it's down to our
+  work, I'll put it right" is as far as a first reply goes.
 - **Partial dispute**: ask for the undisputed amount now and set out a
   plan for the disputed amount.
 - **Can't pay** (hardship): offer a written payment plan (Step 5). Getting
@@ -246,7 +260,10 @@ Debts (Interest) Act 1998, a business can claim:
   1 July–31 December) or 31 December (for 1 January–30 June). Look up the
   current rate on the Bank of England website; never guess it.
 - **Daily interest** = amount owed × (8% + base rate) ÷ 365, multiplied by
-  the number of days overdue. Show the working.
+  the number of days overdue. Show the working. If you don't have the
+  rate, put `£[?]` in the message, and in the working give the 8% figure
+  and what each 1 percentage point of base rate adds, in pounds. No
+  formulas for the user to solve.
 - **Fixed compensation** per invoice: **£40** for debts under £1,000,
   **£70** for £1,000–£9,999.99, and **£100** for £10,000 or more.
 - If no payment date was agreed, payment is late 30 days after the
@@ -279,7 +296,7 @@ Default timeline. Adjust it to the payment terms and the relationship.
 | 1. Friendly reminder | 1–3 days overdue | Assume it's an oversight | Email + text |
 | 2. Firm reminder | 7–14 days overdue | Clear, factual, a date to pay by | Email + phone call |
 | 3. Final notice | 21–30 days overdue | Firm, states what happens next | Email + post |
-| 4. Letter before action | 30–45 days overdue | Formal, 14 days to pay | Post (recorded) + email |
+| 4. Letter before action | 30–45 days overdue | Formal. England and Wales: 30 days for an individual or sole trader, 14 for a company | Post (recorded) + email |
 | 5. Next step | After the deadline | Act on what you said | Court claim / agency |
 
 Never threaten something the user isn't prepared to do. Every message
@@ -375,7 +392,8 @@ is frozen while they keep to the plan. Both parties confirm in writing.
 4. **Interest calculation** if applicable, with working.
 5. **Notes**: anything to check locally, and how to prevent this next time
    (deposit, stage payments, shorter terms, payment link on the invoice,
-   late-payment terms in the quote).
+   late-payment terms in the quote). Don't say what deposit percentage is
+   common: you have no data for it.
 
 ---
 
@@ -435,8 +453,9 @@ Then sort the review:
   (not a generic inbox).
 - **Don't admit legal liability** for damage or injury. If the review
   alleges damage, injury, a gas or electrical safety issue, or threatens
-  legal action, keep the reply minimal ("We take this seriously and have
-  contacted you directly") and tell the owner to speak to their insurer
+  legal action, keep the reply minimal, two sentences with no cause and no
+  promise ("We take this seriously and have contacted you directly"), and
+  tell the owner to speak to their insurer
   before saying more. If there's a live safety risk (a gas smell, exposed
   wiring), the owner should contact the customer today, not just reply
   online.
@@ -477,7 +496,11 @@ harassment). Other platforms have similar flags. Removal isn't guaranteed.
 
 Draft a short private message (SMS/email) to the customer for negative
 reviews: acknowledge, offer the fix or a call, and give a time. Don't
-mention the review rating and don't ask them to change it.
+mention the review rating and don't ask them to change it. If the review
+alleges damage or injury, offer to come and look and nothing more: no
+cause, and no promise to fix or pay for the damage until the owner has
+spoken to their insurer. If it looks fake and the owner has no way to
+reach the person, skip this message.
 
 ## Step 5: Ask happy customers for reviews
 
