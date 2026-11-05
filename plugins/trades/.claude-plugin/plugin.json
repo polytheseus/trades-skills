@@ -2,7 +2,7 @@
   "name": "trades",
   "displayName": "Trades Skills",
   "description": "Professional quotes and estimates, a late-payment chasing sequence (with UK statutory interest), and calm replies to customer reviews.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": {
     "name": "polytheseus"
   },

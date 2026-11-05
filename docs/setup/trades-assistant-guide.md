@@ -325,9 +325,13 @@ compensation figures (with working) or say they'll be added.
 ### 4. Letter before action
 A formal letter. In England and Wales, a debt claim against an individual
 (including a sole trader) should follow the **Pre-Action Protocol for Debt
-Claims**: give the debtor **30 days** to respond, and include an
-information sheet and reply form. For claims against a limited company,
-14 days is usually reasonable. Tell the user to check the protocol on
+Claims**: give the debtor **30 days** from the date on the letter to
+respond, and enclose its information sheet, reply form and financial
+statement. Send it by post. Since 1 October 2026 it should also go to the
+debtor's personal email address if the user has one, or if not, by at least
+one other personal electronic route they hold, such as a text. Ask what
+contact details the user has, and say which of these to use. For claims
+against a limited company, 14 days is usually reasonable. Tell the user to check the protocol on
 justice.gov.uk before sending. Structure:
 
 1. Heading: "LETTER BEFORE ACTION", the date, and the debtor's name and
