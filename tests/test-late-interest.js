@@ -54,7 +54,7 @@ eq(L.calc({ amount: "1000", due: "2028-02-28", to: "2028-03-01", base: "4" }).da
 // After the table: uses current Bank Rate and flags it
 r = L.calc({ amount: "1000", due: "2027-01-05", to: "2027-02-04" });
 eq(r.guess, true, "guess flagged");
-eq(r.base, 3.75, "current base used");
+eq(r.base, 4, "current base used");
 
 // Errors
 eq(!!L.calc({ amount: "", due: "2026-01-01", to: "2026-02-01" }).error, true, "no amount");

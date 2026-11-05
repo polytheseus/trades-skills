@@ -21,7 +21,7 @@
     { from: "2026-07-01", base: 3.75 }   // 30 Jun 2026
   ];
   var KNOWN_UNTIL = "2026-12-31"; // last start date the table covers
-  var CURRENT_BASE = 3.75;        // Bank Rate now (held 17 Sep 2026; next decision 5 Nov 2026)
+  var CURRENT_BASE = 4;           // Bank Rate now (raised 5 Nov 2026; next decision 17 Dec 2026)
   var MONTHS = ["January", "February", "March", "April", "May", "June", "July",
     "August", "September", "October", "November", "December"];
   var DAY = 86400000;

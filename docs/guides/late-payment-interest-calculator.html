@@ -45,7 +45,7 @@ pre.email{white-space:pre-wrap;background:var(--card);border:1px solid var(--lin
 "@type": "FAQPage",
 "mainEntity": [
 {"@type": "Question", "name": "How much interest can I charge on a late invoice in the UK?",
- "acceptedAnswer": {"@type": "Answer", "text": "If the customer is a business and your contract doesn't set its own rate, you can claim statutory interest at 8% a year plus the Bank of England base rate. The base rate used is the one on 30 June (for debts that went overdue between 1 July and 31 December) or 31 December (for 1 January to 30 June). Bank Rate was 3.75% on both 31 December 2025 and 30 June 2026, so the rate is 11.75% a year for debts that went overdue in 2026. It is simple interest, worked out daily."}},
+ "acceptedAnswer": {"@type": "Answer", "text": "If the customer is a business and your contract doesn't set its own rate, you can claim statutory interest at 8% a year plus the Bank of England base rate. The base rate used is the one on 30 June (for debts that went overdue between 1 July and 31 December) or 31 December (for 1 January to 30 June). Bank Rate was 3.75% on both 31 December 2025 and 30 June 2026, so the rate is 11.75% a year for debts that go overdue in 2026, even though Bank Rate rose to 4% on 5 November 2026. It is simple interest, worked out daily."}},
 {"@type": "Question", "name": "Can I charge late payment interest to a homeowner?",
  "acceptedAnswer": {"@type": "Answer", "text": "Not under the late payment legislation, which only covers business-to-business debts. You can charge interest or a late fee to a homeowner only if they agreed to it in your quote or terms and it's reasonable. If you make a county court claim in England or Wales, you can usually claim simple interest at 8% a year on the debt."}},
 {"@type": "Question", "name": "How much late payment compensation can I claim?",
@@ -119,7 +119,7 @@ pre.email{white-space:pre-wrap;background:var(--card);border:1px solid var(--lin
   </div>
   <div class="row">
     <div><label for="li-to">Work it out to <span>(today, or the day they paid)</span></label><input type="date" id="li-to"></div>
-    <div id="li-base-wrap"><label for="li-base">Bank Rate <span>(leave blank: we look it up)</span></label><input id="li-base" inputmode="decimal" placeholder="e.g. 3.75"></div>
+    <div id="li-base-wrap"><label for="li-base">Bank Rate <span>(leave blank: we look it up)</span></label><input id="li-base" inputmode="decimal" placeholder="e.g. 4"></div>
   </div>
   <p id="li-b2c" class="small" hidden>Homeowners aren't covered by the late payment law, so there's no statutory interest or compensation. The calculator shows the 8% a year a county court claim in England or Wales usually adds instead.</p>
   <button type="submit">Work it out</button>
@@ -168,7 +168,7 @@ pre.email{white-space:pre-wrap;background:var(--card);border:1px solid var(--lin
   <tr><td>1 Jul – 31 Dec 2023</td><td>5.00% (30 June 2023)</td><td>13.00%</td></tr>
   <tr><td>1 Jan – 30 Jun 2023</td><td>3.50% (31 December 2022)</td><td>11.50%</td></tr>
 </table>
-<p class="small">From the Bank of England's Bank Rate history. For invoices that go overdue from 1 January 2027, the rate depends on Bank Rate on 31 December 2026 (it was 3.75% on 26 October 2026, with the next decision on 5 November).</p>
+<p class="small">From the Bank of England's Bank Rate history. For invoices that go overdue from 1 January 2027, the rate depends on Bank Rate on 31 December 2026 (<a href="https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate" rel="nofollow">4% since 5 November 2026</a>, with the next decision on 17 December, so 12% if it holds). The November rise doesn't touch debts that go overdue by 31 December 2026: they stay at 11.75%, fixed by the 30 June rate.</p>
 <p><strong>A worked example.</strong> You fitted a kitchen for a letting agency. The £2,400 invoice was due on 15 September 2026 and it's now 26 October: 41 days late. Interest: £2,400 × 11.75% ÷ 365 = £0.7726 a day (about 77p), × 41 = <strong>£31.68</strong>. Compensation: <strong>£70</strong>. Total now due: <strong>£2,501.68</strong>, and 77p more each day.</p>
 </section>
 
