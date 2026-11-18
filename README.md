@@ -47,6 +47,14 @@ all projects.
 /plugin install trades@trades-skills
 ```
 
+**Gemini CLI extension:**
+
+```
+gemini extensions install https://github.com/polytheseus/trades-skills
+```
+
+Update later with `gemini extensions update --all`.
+
 **Manual:** copy the folders in `plugins/trades/skills/` into your agent's
 skills directory, for example `~/.claude/skills/` (Claude Code),
 `~/.agents/skills/` (Codex), `~/.gemini/skills/` (Gemini CLI),
