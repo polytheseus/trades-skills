@@ -55,9 +55,15 @@ gemini extensions install https://github.com/polytheseus/trades-skills
 
 Update later with `gemini extensions update --all`.
 
+In Antigravity CLI (the Gemini CLI successor), as a plugin:
+
+```
+agy plugin install https://github.com/polytheseus/trades-skills
+```
+
 **Manual:** copy the folders in `plugins/trades/skills/` into your agent's
 skills directory, for example `~/.claude/skills/` (Claude Code),
-`~/.agents/skills/` (Codex), `~/.gemini/skills/` (Gemini CLI),
+`~/.agents/skills/` (Codex), `~/.gemini/skills/` (Gemini CLI), `~/.gemini/config/skills/` (Antigravity),
 `~/.cursor/skills/` (Cursor) or `~/.copilot/skills/` (GitHub Copilot).
 Inside a project, `.agents/skills/` works for Codex, Gemini CLI, Cursor,
 Copilot and OpenCode.

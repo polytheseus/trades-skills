@@ -1,0 +1,33 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "polytheseus-trades-skills",
+  "displayName": "Trades Skills",
+  "version": "0.1.3",
+  "description": "Professional quotes and estimates, a late-payment chasing sequence (with UK statutory interest), and calm replies to customer reviews.",
+  "logo": "plugins/trades/.claude-plugin/icon.png",
+  "suggestedPrompts": [
+    "Turn these job notes into a clear quote for the customer",
+    "Write a polite chaser for an invoice that is 30 days overdue",
+    "Reply to this review of my business"
+  ],
+  "author": {
+    "name": "polytheseus",
+    "url": "https://polytheseus.com"
+  },
+  "homepage": "https://polytheseus.com/trades-skills/",
+  "repository": "https://github.com/polytheseus/trades-skills",
+  "license": "MIT",
+  "keywords": [
+    "trades",
+    "contractor",
+    "small-business",
+    "quote",
+    "estimate",
+    "invoice",
+    "late-payment",
+    "reviews",
+    "plumber",
+    "electrician",
+    "builder"
+  ]
+}
